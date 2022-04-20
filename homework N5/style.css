@@ -1,0 +1,11 @@
+h1,
+h2 {
+  color: #fd6daa;
+}
+
+#second-paragraph {
+  color: #8689ca;
+}
+.second-section span {
+  color: rgba(113, 138, 224, 0.8);
+}
