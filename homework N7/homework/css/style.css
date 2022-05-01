@@ -74,6 +74,9 @@
 /* end of second section */
 
 /* start of third section */
+header a:visited {
+  color: rgb(97, 165, 243);
+}
 .parent-el {
   width: 400px;
   height: 300px;
@@ -166,6 +169,10 @@ input {
   border-radius: 5px;
   outline: none;
 }
+input:focus,
+textarea:focus {
+  border: 1px solid #9da0a4;
+}
 textarea {
   width: 100%;
   max-width: 100%;
@@ -188,4 +195,7 @@ textarea {
   background-color: rgb(97, 165, 243);
   border: none;
   cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: rgb(26, 216, 54);
 }
