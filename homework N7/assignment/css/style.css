@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.table {
+  display: table;
+}
+header {
+  position: sticky;
+  height: 70px;
+  top: 0px;
+  background-color: rgb(245, 245, 252);
+}
+.header-container {
+  max-width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+}
+.header-container img {
+  margin-top: 16px;
+  border-radius: 4px;
+}
+header nav {
+  width: calc(100% - 70px);
+  display: inline-block;
+  margin-top: 6px;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul a {
+  text-decoration: none;
+  color: rgb(19, 5, 5);
+  font-family: "Source Serif Pro";
+  font-size: 20px;
+  font-weight: 500px;
+}
+header nav ul a:hover {
+  color: rgb(95, 208, 243);
+}
+li {
+  margin-left: 10px;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 15px;
+  max-width: 1200px;
+}
+/* start of section-1 */
+.section-1 {
+  height: 400px;
+  background-image: url("../images/barcelona.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 80px;
+}
+.section-1 h1,
+.section-1 p {
+  color: #fff;
+}
+.section-1 h1 {
+  font-family: "Abril Fatface";
+  font-size: 60px;
+  margin: 0 0 10px 0;
+}
+.section-1 p {
+  font-family: "Oleo Script";
+  font-size: 18px;
+}
+.first-section-image {
+  background-image: url("../images/champions.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* end of section-1  */
+/* start of section-2 */
+.section-2 {
+  height: 400px;
+  width: 100%;
+}
+.small-section {
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.small-section h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #154284;
+  margin: 0;
+}
+.small-section p {
+  font-family: "Source Serif Pro";
+}
+.small-section.second-section-text {
+  padding-left: 15px;
+}
+.second-section-image {
+  background-image: url("../images/barca.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* end of secton-2 */
+/* start of section-3 */
+.section-3 {
+  padding-bottom: 5px;
+}
+/* end of section-3 */
