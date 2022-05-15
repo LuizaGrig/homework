@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oleo+Script&family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Serif+Pro:wght@300&family=Square+Peg&family=Tapestry&display=swap");
+body {
+  font-family: "Oleo Script", cursive;
+}
+header a {
+  margin: 5px;
+}
+
+.img-container div {
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-1 {
+  background-image: url("/filters/images/img1.jpg");
+  filter: opacity(70%);
+}
+.img-2 {
+  background-image: url("/filters/images/img2.jpg");
+  filter: hue-rotate(135deg);
+}
+.img-3 {
+  background-image: url("/filters/images/img3.jpg");
+  filter: contrast(0.8);
+}
+.img-4 {
+  background-image: url("/filters/images/img4.jpg");
+  filter: sepia(1);
+}
+.img-5 {
+  background-image: url("/filters/images/img5.jpg");
+  filter: grayscale(60%);
+}
+.img-6 {
+  background-image: url("/filters/images/img6.jpg");
+  filter: blur(2px);
+}
+.img-7 {
+  background-image: url("/filters/images/img7.jpg");
+  filter: brightness(120%);
+}
+.img-8 {
+  background-image: url("/filters/images/img8.jpg");
+  filter: saturate(40%);
+}

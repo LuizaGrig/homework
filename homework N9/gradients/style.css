@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oleo+Script&family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Serif+Pro:wght@300&family=Square+Peg&family=Tapestry&display=swap");
+body {
+  font-family: "Oleo Script", cursive;
+}
+p {
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.inline-block {
+  display: inline-block;
+}
+.linear-text {
+  width: 800px;
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.bckg-img {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  background: linear-gradient(
+      135deg,
+      rgba(238 238 216 / 64%),
+      rgba(204 204 30 / 24%)
+    ),
+    url("/gradients/img.jpg") no-repeat center center/cover;
+}
+
+.repeat-gradient {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  background-image: repeating-linear-gradient(
+    to right bottom,
+    rgb(20, 117, 169),
+    rgb(235, 244, 105),
+    rgb(22, 145, 9)
+  );
+}
+.radial-text {
+  width: 800px;
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+.radial-first-el {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  background-image: repeating-radial-gradient(
+    rgb(11, 109, 32),
+    rgb(9, 114, 33) 10px,
+    rgb(233, 227, 45) 10px,
+    rgb(131, 131, 246) 20px
+  );
+}
+.radial-second-el {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  background-image: radial-gradient(
+    closest-side at 150px 300px,
+    rgb(213, 116, 64),
+    rgb(240, 238, 198)
+  );
+}
+.conic-text {
+  width: 400px;
+  border: 1px solid black;
+  word-wrap: break-word;
+}
+.conic-first-el {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  background-image: conic-gradient(
+    from 45deg,
+    rgb(173, 236, 247),
+    rgb(59, 33, 229),
+    rgb(66, 227, 117),
+    green
+  );
+}
+.conic-second-el {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  background-image: repeating-conic-gradient(
+    rgb(59, 202, 231) 10deg,
+    rgb(35, 35, 188) 40deg
+  );
+}
+.lines-container {
+  width: 400px;
+  margin: 0.5em;
+  white-space: normal;
+  vertical-align: top;
+}
+
+.line-loose {
+  line-break: loose;
+}
+.line-strict {
+  line-break: strict;
+}
