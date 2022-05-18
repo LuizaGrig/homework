@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oleo+Script&family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Serif+Pro:wght@300&family=Square+Peg&family=Tapestry&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.col-4 {
+  flex-basis: 40%;
+}
+.col-2 {
+  flex-basis: 15%;
+}
+.m-20 {
+  margin: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  margin: 15px;
+}
+h1 {
+  font-family: "Oleo Script", cursive;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+header div p {
+  font-size: 14px;
+  color: #5e646f;
+}
+.categories-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 9px 5px;
+  background: #000;
+}
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+  border-radius: 8px;
+  height: 70px;
+  max-width: 30%;
+  font-family: "Oleo Script", cursive;
+  color: #fff;
+  letter-spacing: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.holidays {
+  background-image: url("/images/bck-1.jpg");
+}
+.popular {
+  background-image: url("/images/bck-2.jpg");
+}
+.diy {
+  background-image: url("/images/bck-3.jpg");
+}
+.art {
+  background-image: url("/images/bck-4.jpg");
+}
+.entertainment {
+  background-image: url("/images/bck-5.jpg");
+}
+.food {
+  background-image: url("/images/bck-6.jpg");
+}
+.games {
+  background-image: url("/images/bck-7.jpg");
+}
+.wellbeing {
+  background-image: url("/images/bck-8.jpg");
+}
+.learning {
+  background-image: url("/images/bck-9.jpg");
+}
+.activities-container {
+  display: flex;
+}
+.activities-container-header h2 {
+  font-family: "Oleo Script", cursive;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #fd6daa;
+}
+.activities-container-header p {
+  font-size: 14px;
+  color: #5e646f;
+}
+.activity {
+  display: flex;
+  align-items: flex-end;
+  margin: 20px;
+  border-radius: 8px;
+  width: 340px;
+  height: 380px;
+  font-family: "Oleo Script", cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.holiday {
+  background-image: url("/images/holiday.png");
+}
+.cook {
+  background-image: url("/images/cook.png");
+}
+.draw {
+  background-image: url("/images/draw.png");
+}
+.shrink {
+  background-image: url("/images/shrink.png");
+}
+.handwriting {
+  background-image: url("/images/handwriting.png");
+}
+.candle {
+  background-image: url("/images/candle.png");
+}
+@media screen and (max-width: 650px) {
+  .activities-container {
+    flex-direction: column;
+    height: 500px;
+  }
+}
