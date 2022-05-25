@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+/* start of css for 1st example */
+.items {
+  padding: 10px;
+  display: grid;
+  grid-template: repeat(3, 50px) / repeat(3, 50px);
+  grid-gap: 15px 10px;
+}
+.item {
+  border: 1px solid rgb(15, 72, 119);
+  background-color: rgb(174, 204, 249);
+}
+/* end of the 1st example */
+
+/* start 2nd example */
+.main-items {
+  padding: 10px;
+  display: grid;
+  /* grid-template:
+    "header header header" 100px
+    "main empty sidebar" 1fr
+    "footer footer footer" 100px
+    /150px 100px 50px; */
+  grid-template-columns: 200px 150px 60px;
+  grid-template-rows: repeat(2, 100px);
+}
+.main-item {
+  border: 1px solid rgb(184, 46, 184);
+  background-color: rgb(237, 117, 229);
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+}
+.main-item:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.main-item:nth-child(5) {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+/* end 2nd example */
+
+/* start of 3rd example */
+.count-items {
+  padding: 10px;
+  display: grid;
+  grid-template: repeat(2, 100px) / repeat(2, 200px);
+  grid-gap: 10px;
+}
+.count-item {
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+}
+.count-item:nth-child(1) {
+  background-color: rgb(142, 178, 228);
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.count-item:nth-child(2) {
+  background-color: rgb(222, 125, 232);
+}
+.count-item:nth-child(3) {
+  background-color: rgb(244, 187, 250);
+}
+.count-item:nth-child(4) {
+  background-color: rgb(205, 44, 223);
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.boxes {
+  padding: 10px;
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+.box {
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  background-color: rgb(0, 149, 255);
+}
+.box:nth-child(1) {
+  grid-column: span 12;
+}
+.box:nth-child(2),
+.box:nth-child(3) {
+  grid-column: span 6;
+}
+.box:nth-child(4),
+.box:nth-child(5),
+.box:nth-child(6) {
+  grid-column: span 4;
+}
+.box:nth-child(7),
+.box:nth-child(8),
+.box:nth-child(9),
+.box:nth-child(10) {
+  grid-column: span 3;
+}
