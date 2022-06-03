@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap");
+@import "./imports/variables";
+@import "./imports/mixins";
+@import "./imports/socialBar.scss";
+@import "./imports/menuNavbar.scss";

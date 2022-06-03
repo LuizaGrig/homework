@@ -1,0 +1,26 @@
+section {
+  @include box;
+  .social-nav {
+    position: sticky;
+    top: 0px;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style-type: none;
+        a {
+          display: flex;
+        }
+      }
+    }
+  }
+}
+article {
+  h3 {
+    @include titleFontStyle;
+  }
+  p {
+    margin: 10px;
+    color: $color-black;
+  }
+}

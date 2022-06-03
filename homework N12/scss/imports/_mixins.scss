@@ -1,0 +1,20 @@
+@mixin titleFontStyle() {
+  padding-left: 10px;
+  font-family: poppins;
+  font-size: 20px;
+  color: $color-black;
+}
+@mixin menuFontStyle {
+  padding-left: 10px;
+  font-family: poppins;
+  font-size: 14px;
+  color: $color-gray;
+}
+@mixin box() {
+  margin: 10px 0;
+  display: flex;
+  height: 200px;
+  width: 600px;
+  border: 1px solid $color-black;
+  overflow: auto;
+}
